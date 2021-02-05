@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `Bone Age Assessment Client`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    description: `Bone Age Assessment App`,
+    author: `SShowbiz`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
