@@ -1,16 +1,18 @@
 html {
+  height: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  font: 112.5%/1.45em georgia, serif, sans-serif;
+  font: 112.5%/1.45em serif, sans-serif, georgia;
   box-sizing: border-box;
   overflow-y: scroll;
 }
 body {
+  height: 100%;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: hsla(0, 0%, 0%, 0.8);
-  font-family: georgia, serif;
+  font-family: arial, serif, georgia;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -19,13 +21,16 @@ body {
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
 }
+
+header {
+  height: 100%;
+}
 article,
 aside,
 details,
 figcaption,
 figure,
 footer,
-header,
 main,
 menu,
 nav,
@@ -590,8 +595,10 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
+
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
+    height: 100%;
   }
 }

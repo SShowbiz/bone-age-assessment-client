@@ -1,0 +1,11 @@
+#___gatsby {
+  height: 100%;
+}
+
+#gatsby-focus-wrapper {
+  height: 100%;
+}
+
+.modal-dialog {
+  top: 35%;
+}
